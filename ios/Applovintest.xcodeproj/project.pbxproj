@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ApplovintestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ApplovintestTests.m */; };
-		04071CA7F653E8001FFF9836 /* libPods-Applovintest-ApplovintestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859B8931941FAF818C3A5FC /* libPods-Applovintest-ApplovintestTests.a */; };
+		0F93C692CA6E0DF3C9A2E2CE /* libPods-Applovintest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 872751624E3F08C7D1B9BD6D /* libPods-Applovintest.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		45EB69585A2D85DA6FEC1920 /* libPods-Applovintest-ApplovintestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E91F071C4E50819CDF820DD /* libPods-Applovintest-ApplovintestTests.a */; };
+		6B86C232FC295D9772ED171F /* AppLovinQualityService.xcframework in AppLovinQualityService Embed Framework */ = {isa = PBXBuildFile; fileRef = 85AF2D3F89F8ABCF0F043013 /* AppLovinQualityService.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B9420DC1BA626C4C7CECE869 /* libPods-Applovintest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC2E38EA3A1D1C41081F2D2 /* libPods-Applovintest.a */; };
+		BDD904B1C331B65D4EA2ADD9 /* AppLovinQualityService.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AF2D3F89F8ABCF0F043013 /* AppLovinQualityService.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		42AE6AADA3F279140F9292B0 /* AppLovinQualityService Embed Framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6B86C232FC295D9772ED171F /* AppLovinQualityService.xcframework in AppLovinQualityService Embed Framework */,
+			);
+			name = "AppLovinQualityService Embed Framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* ApplovintestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplovintestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,13 +52,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Applovintest/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Applovintest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Applovintest/main.m; sourceTree = "<group>"; };
-		14F33D47E388B18485DC8CDC /* Pods-Applovintest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applovintest.debug.xcconfig"; path = "Target Support Files/Pods-Applovintest/Pods-Applovintest.debug.xcconfig"; sourceTree = "<group>"; };
-		1859B8931941FAF818C3A5FC /* libPods-Applovintest-ApplovintestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Applovintest-ApplovintestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22C8696CDD9FF9A369C49B3B /* Pods-Applovintest-ApplovintestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applovintest-ApplovintestTests.release.xcconfig"; path = "Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests.release.xcconfig"; sourceTree = "<group>"; };
-		48F2C738668E6B948BF89BCB /* Pods-Applovintest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applovintest.release.xcconfig"; path = "Target Support Files/Pods-Applovintest/Pods-Applovintest.release.xcconfig"; sourceTree = "<group>"; };
-		6EC2E38EA3A1D1C41081F2D2 /* libPods-Applovintest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Applovintest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E60E5BAC5691FF0B38D90B /* Pods-Applovintest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applovintest.debug.xcconfig"; path = "Target Support Files/Pods-Applovintest/Pods-Applovintest.debug.xcconfig"; sourceTree = "<group>"; };
+		68F5FC18F0080E5C22120A4D /* Pods-Applovintest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applovintest.release.xcconfig"; path = "Target Support Files/Pods-Applovintest/Pods-Applovintest.release.xcconfig"; sourceTree = "<group>"; };
+		6E91F071C4E50819CDF820DD /* libPods-Applovintest-ApplovintestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Applovintest-ApplovintestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADC211214209E197903A105 /* Pods-Applovintest-ApplovintestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applovintest-ApplovintestTests.debug.xcconfig"; path = "Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Applovintest/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8E47CBA0D875A7C90FE93489 /* Pods-Applovintest-ApplovintestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applovintest-ApplovintestTests.debug.xcconfig"; path = "Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85AF2D3F89F8ABCF0F043013 /* AppLovinQualityService.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppLovinQualityService.xcframework; path = AppLovinQualityService/AppLovinQualityService.xcframework; sourceTree = "<group>"; };
+		872751624E3F08C7D1B9BD6D /* libPods-Applovintest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Applovintest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC40F9EC6CC6F6FBC6061EA /* Pods-Applovintest-ApplovintestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applovintest-ApplovintestTests.release.xcconfig"; path = "Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04071CA7F653E8001FFF9836 /* libPods-Applovintest-ApplovintestTests.a in Frameworks */,
+				45EB69585A2D85DA6FEC1920 /* libPods-Applovintest-ApplovintestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9420DC1BA626C4C7CECE869 /* libPods-Applovintest.a in Frameworks */,
+				BDD904B1C331B65D4EA2ADD9 /* AppLovinQualityService.xcframework in Frameworks */,
+				0F93C692CA6E0DF3C9A2E2CE /* libPods-Applovintest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6EC2E38EA3A1D1C41081F2D2 /* libPods-Applovintest.a */,
-				1859B8931941FAF818C3A5FC /* libPods-Applovintest-ApplovintestTests.a */,
+				872751624E3F08C7D1B9BD6D /* libPods-Applovintest.a */,
+				6E91F071C4E50819CDF820DD /* libPods-Applovintest-ApplovintestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +140,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				92024D8ED31B8B5909C8F4EE /* AppLovinQualityService */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,13 +156,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		92024D8ED31B8B5909C8F4EE /* AppLovinQualityService */ = {
+			isa = PBXGroup;
+			children = (
+				85AF2D3F89F8ABCF0F043013 /* AppLovinQualityService.xcframework */,
+			);
+			name = AppLovinQualityService;
+			sourceTree = "<group>";
+		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				14F33D47E388B18485DC8CDC /* Pods-Applovintest.debug.xcconfig */,
-				48F2C738668E6B948BF89BCB /* Pods-Applovintest.release.xcconfig */,
-				8E47CBA0D875A7C90FE93489 /* Pods-Applovintest-ApplovintestTests.debug.xcconfig */,
-				22C8696CDD9FF9A369C49B3B /* Pods-Applovintest-ApplovintestTests.release.xcconfig */,
+				38E60E5BAC5691FF0B38D90B /* Pods-Applovintest.debug.xcconfig */,
+				68F5FC18F0080E5C22120A4D /* Pods-Applovintest.release.xcconfig */,
+				7ADC211214209E197903A105 /* Pods-Applovintest-ApplovintestTests.debug.xcconfig */,
+				DFC40F9EC6CC6F6FBC6061EA /* Pods-Applovintest-ApplovintestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ApplovintestTests" */;
 			buildPhases = (
-				B93C78983F54B1773F3FD5B9 /* [CP] Check Pods Manifest.lock */,
+				F5DF6477003019F416F5EFF1 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				3D32D714B41A05D36E7C2E74 /* [CP] Embed Pods Frameworks */,
-				7ECD494ADB1253BC520209BA /* [CP] Copy Pods Resources */,
+				57F3068FF8F9E3DB2C4700EC /* [CP] Embed Pods Frameworks */,
+				AD87AE28F3F23D29B84E6066 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +203,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Applovintest" */;
 			buildPhases = (
-				B4C94F86E7E02A89D0E21EEE /* [CP] Check Pods Manifest.lock */,
+				0319035527C02270AE28300C /* [CP] Check Pods Manifest.lock */,
+				9F9F06B9C5E63EF945677331 /* AppLovinQualityService Updater */,
+				42AE6AADA3F279140F9292B0 /* AppLovinQualityService Embed Framework */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				246F4CE26359A240FAA76703 /* [CP] Embed Pods Frameworks */,
-				33E614DF1121D6C72EB5FDCE /* [CP] Copy Pods Resources */,
+				C2A36C467C03B76ADC476436 /* AppLovinQualityService */,
+				4B28FA0D154BEE1085E001E9 /* [CP] Embed Pods Frameworks */,
+				866F24FB9851427502B67A4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,75 +296,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		246F4CE26359A240FAA76703 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		33E614DF1121D6C72EB5FDCE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3D32D714B41A05D36E7C2E74 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7ECD494ADB1253BC520209BA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B4C94F86E7E02A89D0E21EEE /* [CP] Check Pods Manifest.lock */ = {
+		0319035527C02270AE28300C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,7 +318,110 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B93C78983F54B1773F3FD5B9 /* [CP] Check Pods Manifest.lock */ = {
+		4B28FA0D154BEE1085E001E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57F3068FF8F9E3DB2C4700EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866F24FB9851427502B67A4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Applovintest/Pods-Applovintest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F9F06B9C5E63EF945677331 /* AppLovinQualityService Updater */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "AppLovinQualityService Updater";
+			outputPaths = (
+				AppLovinQualityService/AppLovinQualityServicePlugin.app,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ruby \"AppLovinQualityServiceSetup-ios.rb\" update";
+		};
+		AD87AE28F3F23D29B84E6066 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Applovintest-ApplovintestTests/Pods-Applovintest-ApplovintestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A36C467C03B76ADC476436 /* AppLovinQualityService */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				AppLovinQualityService/AppLovinQualityServicePlugin.app,
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+				"$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UnityFramework.framework/UnityFramework",
+			);
+			name = AppLovinQualityService;
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_FOLDER_PATH)/.AppLovinQualityService/AppLovinQualityService.json",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "AppLovinQualityService/AppLovinQualityServicePlugin.app/Contents/MacOS/AppLovinQualityServicePlugin \"AppLovinQualityServiceSetup-ios.rb\"";
+		};
+		F5DF6477003019F416F5EFF1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,7 +495,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E47CBA0D875A7C90FE93489 /* Pods-Applovintest-ApplovintestTests.debug.xcconfig */;
+			baseConfigurationReference = 7ADC211214209E197903A105 /* Pods-Applovintest-ApplovintestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +522,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22C8696CDD9FF9A369C49B3B /* Pods-Applovintest-ApplovintestTests.release.xcconfig */;
+			baseConfigurationReference = DFC40F9EC6CC6F6FBC6061EA /* Pods-Applovintest-ApplovintestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,12 +546,16 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14F33D47E388B18485DC8CDC /* Pods-Applovintest.debug.xcconfig */;
+			baseConfigurationReference = 38E60E5BAC5691FF0B38D90B /* Pods-Applovintest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = Applovintest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -508,11 +577,15 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48F2C738668E6B948BF89BCB /* Pods-Applovintest.release.xcconfig */;
+			baseConfigurationReference = 68F5FC18F0080E5C22120A4D /* Pods-Applovintest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = Applovintest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -565,6 +638,10 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppLovinQualityService",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -644,6 +721,10 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppLovinQualityService",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (

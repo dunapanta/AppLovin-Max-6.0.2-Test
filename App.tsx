@@ -16,6 +16,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import AppLovinMAX, {Configuration} from 'react-native-applovin-max';
 
 import {
   Colors,
@@ -56,6 +57,18 @@ function Section({children, title}: SectionProps): JSX.Element {
 }
 
 function App(): JSX.Element {
+  //ADS
+  AppLovinMAX.initialize('MY_KEY')
+    .then((conf: Configuration) => {
+      // SDK is initialized, start loading ads
+      console.log('AppLovinMAX.initialize good', conf);
+      //AppLovinMAX.showMediationDebugger();
+    })
+    .catch(error => {
+      // Failed to initialize SDK
+      console.log('AppLovinMAX.initialize error', error);
+    });
+
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
